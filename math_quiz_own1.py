@@ -4,11 +4,16 @@ import json
 
 st.title("📝 Grade 5 Maths Quiz")
 #st.write("Select the correct answer and click submit button at the bottom!")
+file_path = os.path.join(os.path.dirname(__file__), "maths quiz questions.json")
 
-with open(".\\maths quiz questions.json", "r") as file:
-    all_questions = json.load(file)
+try:
+    with open(file_path, "r") as file:
+        all_questions = json.load(file)
+except FileNotFoundError:
+    st.error("❌ 'maths quiz questions.json' not found. Make sure it's in the same directory as this script.")
+    st.stop()
 
-# ---------- Initialize Session State ----------
+    # ---------- Initialize Session State ----------
 if "started" not in st.session_state:
     st.session_state.started = False
 if "q_index" not in st.session_state:
