@@ -5,7 +5,7 @@ import json
 st.title("📝 Grade 5 Maths Quiz")
 #st.write("Select the correct answer and click submit button at the bottom!")
 
-with open("C:\\Users\\Meet\\repo\\math_quiz_grade5\\maths quiz questions.json", "r") as file:
+with open("maths quiz questions.json", "r") as file:
     all_questions = json.load(file)
 
 # ---------- Initialize Session State ----------
