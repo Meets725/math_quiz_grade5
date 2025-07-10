@@ -4,8 +4,7 @@ import json
 import os
 
 st.title("📝 Grade 5 Maths Quiz")
-file_path = os.path.join(os.path.dirname(__file__), "maths quiz questions.json")
-
+file_path = "maths quiz questions.json"
 try:
     with open(file_path, "r") as file:
         all_questions = json.load(file)
