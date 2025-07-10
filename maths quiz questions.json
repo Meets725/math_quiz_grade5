@@ -1,0 +1,170 @@
+[
+  {
+    "question": "How many centimeters are in 3 meters?",
+    "options": ["30", "300", "3", "100"],
+    "answer": "300",
+    "explanations": {
+      "30": "Only 30 cm is 0.3 meters. You need to multiply by 100.",
+      "3": "3 meters equals 300 cm, not just 3 cm.",
+      "100": "That's just 1 meter. Multiply by 3: 3 * 100 = 300."
+    }
+  },
+  {
+    "question": "What is the sum of the angles in a triangle?",
+    "options": ["90°", "180°", "270°", "360°"],
+    "answer": "180°",
+    "explanations": {
+      "90°": "Only one right angle, not the whole triangle.",
+      "270°": "Too much—sum for a triangle is always 180°.",
+      "360°": "That's the total for a full circle, not a triangle."
+    }
+  },
+  {
+    "question": "Which of these is a composite number?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4",
+    "explanations": {
+      "2": "2 is prime—it only has two factors: 1 and 2.",
+      "3": "Also prime. Composite numbers have more than two factors.",
+      "5": "Still a prime! 1 and 5 only."
+    }
+  },
+  {
+    "question": "How many minutes are in 2.5 hours?",
+    "options": ["120", "130", "150", "180"],
+    "answer": "150",
+    "explanations": {
+      "120": "120 minutes = 2 hours. We need 2.5 hours.",
+      "130": "Just a bit short. 2.5 * 60 = 150 minutes.",
+      "180": "That's 3 full hours. Too long."
+    }
+  },
+  {
+    "question": "Which is the largest fraction?",
+    "options": ["3/5", "2/3", "4/6", "5/10"],
+    "answer": "2/3",
+    "explanations": {
+      "3/5": "0.6 is smaller than 0.666…",
+      "4/6": "Simplifies to 2/3, but we're asked for the largest—choose the clearer one.",
+      "5/10": "That's exactly 0.5, smaller than the others."
+    }
+  },
+  {
+    "question": "What is the area of a rectangle with length 6 cm and width 4 cm?",
+    "options": ["10 cm²", "24 cm²", "30 cm²", "18 cm²"],
+    "answer": "24 cm²",
+    "explanations": {
+      "10 cm²": "Too small. Area is length * width: 6 * 4 = 24.",
+      "30 cm²": "Too large. Area should be 6 * 4 = 24.",
+      "18 cm²": "Incorrect multiplication. 6 * 3 = 18, but width is 4."
+    }
+  },
+  {
+    "question": "What is the smallest prime number?",
+    "options": ["0", "1", "2", "3"],
+    "answer": "2",
+    "explanations": {
+      "0": "Zero is not prime. It's divisible by every number.",
+      "1": "1 is not considered a prime because it has only one factor.",
+      "3": "Prime, yes—but not the *smallest*. 2 is smaller."
+    }
+  },
+  {
+    "question": "How many degrees are there in a right angle?",
+    "options": ["45", "90", "180", "360"],
+    "answer": "90",
+    "explanations": {
+      "45": "That's a half of a right angle.",
+      "180": "That's a straight line, not a right angle.",
+      "360": "That's a full circle!"
+    }
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 8 cm and width 4 cm?",
+    "options": ["32 cm", "24 cm", "20 cm", "12 cm"],
+    "answer": "24 cm",
+    "explanations": {
+      "32 cm": "Incorrect—That would be the perimeter if sides were miscounted or doubled incorrectly.",
+      "24 cm": "Correct—2 * (8 + 4) = 24 cm.",
+      "20 cm": "Incorrect—Misses one side, perhaps only added one length and one width.",
+      "12 cm": "Incorrect—Way too small, likely just length + width."
+    }
+  },
+  {
+    "question": "If one notebook costs ₹45, what is the cost of 6 notebooks?",
+    "options": ["₹270", "₹245", "₹255", "₹265"],
+    "answer": "₹270",
+    "explanations": {
+      "₹270": "Correct—₹45 * 6 = ₹270.",
+      "₹245": "Incorrect—This results from ₹45 * 5. One notebook short.",
+      "₹255": "Incorrect—Off by ₹15. A common addition mistake.",
+      "₹265": "Incorrect—Close, but not the exact product."
+    }
+  },
+  {
+    "question": "Ravi has ₹500 and spends ₹120 on books and ₹150 on a toy. How much is left?",
+    "options": ["₹230", "₹250", "₹280", "₹220"],
+    "answer": "₹230",
+    "explanations": {
+      "₹230": "Correct—₹500 - (₹120 + ₹150) = ₹230.",
+      "₹250": "Incorrect—Not accounting correctly for total spent.",
+      "₹280": "Incorrect—Likely forgot to subtract both expenses.",
+      "₹220": "Incorrect—Off by ₹10, maybe a calculation slip."
+    }
+  },
+  {
+    "question": "How many sides does a hexagon have?",
+    "options": ["4", "6", "8", "5"],
+    "answer": "6",
+    "explanations": {
+      "4": "Incorrect—A quadrilateral has 4 sides.",
+      "6": "Correct—Hexagon means 6 sides.",
+      "8": "Incorrect—An octagon has 8 sides.",
+      "5": "Incorrect—That's a pentagon."
+    }
+  },
+  {
+    "question": "What is 25% of 200?",
+    "options": ["50", "40", "25", "60"],
+    "answer": "50",
+    "explanations": {
+      "50": "Correct—¼ of 200 is 200 ÷ 4 = 50.",
+      "40": "Incorrect—20% of 200 is 40.",
+      "25": "Incorrect—Only 12.5% of 200.",
+      "60": "Incorrect—30% of 200."
+    }
+  },
+  {
+    "question": "A book has 124 pages. If you read 4 pages a day, how many days to finish it?",
+    "options": ["31", "32", "30", "33"],
+    "answer": "31",
+    "explanations": {
+      "31": "Correct—124 ÷ 4 = 31 days.",
+      "32": "Incorrect—Too many; 4 * 32 = 128, which exceeds 124.",
+      "30": "Incorrect—4 * 30 = 120, too few.",
+      "33": "Incorrect—4 * 33 = 132, more than needed."
+    }
+  },
+  {
+    "question": "Which shape has all sides equal and all angles equal?",
+    "options": ["Rectangle", "Square", "Rhombus", "Triangle"],
+    "answer": "Square",
+    "explanations": {
+      "Rectangle": "Incorrect—Angles are equal, but sides aren't necessarily.",
+      "Square": "Correct—All sides and angles are equal.",
+      "Rhombus": "Incorrect—All sides equal, but angles may differ.",
+      "Triangle": "Incorrect—Only true for equilateral triangle, not general case."
+    }
+  },
+  {
+    "question": "How many edges does a cube have?",
+    "options": ["8", "12", "6", "10"],
+    "answer": "12",
+    "explanations": {
+      "8": "Incorrect—That's the number of corners (vertices).",
+      "12": "Correct—A cube has 12 edges.",
+      "6": "Incorrect—That's the number of faces.",
+      "10": "Incorrect—No regular 3D shape has 10 edges."
+    }
+  }
+]
