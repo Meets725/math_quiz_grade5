@@ -1,6 +1,7 @@
 import streamlit as st
 import random
 import json
+import os
 
 st.title("📝 Grade 5 Maths Quiz")
 file_path = os.path.join(os.path.dirname(__file__), "maths quiz questions.json")
